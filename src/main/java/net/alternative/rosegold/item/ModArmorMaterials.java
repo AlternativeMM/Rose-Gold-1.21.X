@@ -2,7 +2,7 @@ package net.alternative.rosegold.item;
 
 import net.alternative.rosegold.RoseGold;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.equipment.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
