@@ -2,16 +2,13 @@ package net.alternative.rosegold.item;
 
 import net.alternative.rosegold.RoseGold;
 import net.alternative.rosegold.util.ModTags;
-import net.minecraft.item.ArmorItem;
 import net.minecraft.item.equipment.ArmorMaterial;
 import net.minecraft.item.equipment.EquipmentType;
-import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 
 import java.util.EnumMap;
-import java.util.List;
 
 public class ModArmorMaterials {
     public static final ArmorMaterial ROSE_GOLD_ARMOR_MATERIAL = new ArmorMaterial(500,Util.make(new EnumMap<>(EquipmentType.class), map -> {

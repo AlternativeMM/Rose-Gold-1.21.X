@@ -2,7 +2,6 @@ package net.alternative.rosegold.daragen;
 
 
 import net.alternative.rosegold.block.ModBlocks;
-import net.alternative.rosegold.item.ModItems;
 import net.alternative.rosegold.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
