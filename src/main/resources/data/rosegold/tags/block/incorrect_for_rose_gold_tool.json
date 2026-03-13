@@ -1,0 +1,8 @@
+{
+  "value": [
+    "#minecraft:incorrect_for_iron_tool"
+  ],
+  "remove": [
+    "#rosegold:needs_rose_gold_tool"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "rosegold",
+	"version": "${version}",
+	"name": "RoseGold",
+	"description": "Rose Gold mod. New material, new tools, new armor.",
+	"authors": [
+		"Alternative"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rosegold/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alternative.rosegold.RoseGold"
+		],
+		"fabric-datagen": [
+			"net.alternative.rosegold.RoseGoldDataGenerator"
+		],
+		"client": [
+			"net.alternative.rosegold.RoseGoldClient"
+		]
+	},
+	"mixins": [
+		"rosegold.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "0.102.0+1.21"
+	}
+}
