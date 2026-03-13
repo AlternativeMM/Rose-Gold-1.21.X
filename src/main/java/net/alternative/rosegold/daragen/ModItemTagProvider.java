@@ -38,5 +38,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(ModItems.ROSE_GOLD_INGOT);
+
+        getOrCreateTagBuilder(ModTags.Items.ROSE_GOLD_REPAIR)
+                .add(ModItems.ROSE_GOLD_INGOT);
     }
 }
