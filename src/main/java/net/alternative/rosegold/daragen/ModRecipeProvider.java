@@ -97,6 +97,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('S', Items.STICK)
                         .criterion(hasItem(ModItems.ROSE_GOLD_INGOT), conditionsFromItem(ModItems.ROSE_GOLD_INGOT))
                         .offerTo(exporter);
+
+                createShaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLD_HELMET)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("   ")
+                        .input('R', ModItems.ROSE_GOLD_INGOT)
+                        .criterion(hasItem(ModItems.ROSE_GOLD_INGOT), conditionsFromItem(ModItems.ROSE_GOLD_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLD_CHESTPLATE)
+                        .pattern("R R")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .input('R', ModItems.ROSE_GOLD_INGOT)
+                        .criterion(hasItem(ModItems.ROSE_GOLD_INGOT), conditionsFromItem(ModItems.ROSE_GOLD_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLD_LEGGINGS)
+                        .pattern("RRR")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .input('R', ModItems.ROSE_GOLD_INGOT)
+                        .criterion(hasItem(ModItems.ROSE_GOLD_INGOT), conditionsFromItem(ModItems.ROSE_GOLD_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.ROSE_GOLD_BOOTS)
+                        .pattern("   ")
+                        .pattern("R R")
+                        .pattern("R R")
+                        .input('R', ModItems.ROSE_GOLD_INGOT)
+                        .criterion(hasItem(ModItems.ROSE_GOLD_INGOT), conditionsFromItem(ModItems.ROSE_GOLD_INGOT))
+                        .offerTo(exporter);
+
             }
         };
     }
