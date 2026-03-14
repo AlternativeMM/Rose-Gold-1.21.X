@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
-      "item": "rosegold:rose_gold_nugget"
-    }
+    "R": "rosegold:rose_gold_nugget"
   },
   "pattern": [
     "RRR",

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "rosegold:rose_gold_ingot"
-    }
+    "rosegold:rose_gold_ingot"
   ],
   "result": {
     "count": 9,

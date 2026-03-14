@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "R": "rosegold:rose_gold_ingot",
-    "S": "minecraft:stick"
+    "R": "rosegold:rose_gold_ingot"
   },
   "pattern": [
-    "RR ",
-    " S ",
-    " S "
+    "RRR",
+    "R R",
+    "   "
   ],
   "result": {
     "count": 1,
-    "id": "rosegold:rose_gold_hoe"
+    "id": "rosegold:rose_gold_helmet"
   }
 }

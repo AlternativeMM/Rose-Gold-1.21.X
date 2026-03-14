@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "rosegold:rose_gold_ingot"
-    }
+    "R": "rosegold:rose_gold_ingot"
   },
   "pattern": [
     "RRR",

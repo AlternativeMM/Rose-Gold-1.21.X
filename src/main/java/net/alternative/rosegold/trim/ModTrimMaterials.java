@@ -22,13 +22,13 @@ public class ModTrimMaterials {
             Identifier.of(RoseGold.MOD_ID, "rose_gold"));
 
     public static void bootstrap(Registerable<ArmorTrimMaterial> registerable) {
-        register(registerable, ROSE_GOLD, Registries.ITEM.getEntry(ModItems.ROSE_GOLD_INGOT), Style.EMPTY.withColor(TextColor.parse("#ff9cfd").getOrThrow()),1.0f);
+        register(registerable, ROSE_GOLD, Registries.ITEM.getEntry(ModItems.ROSE_GOLD_INGOT), Style.EMPTY.withColor(TextColor.parse("#ff9cfd").getOrThrow()));
     }
 
 
     private static void register(Registerable<ArmorTrimMaterial> registerable, RegistryKey<ArmorTrimMaterial> armorTrimKey,
-                                 RegistryEntry<Item> item, Style style, float itemModelIndex) {
-        ArmorTrimMaterial trimMaterial = new ArmorTrimMaterial(armorTrimKey.getValue().getPath(), item, itemModelIndex, Map.of(),
+                                 RegistryEntry<Item> item, Style style) {
+        ArmorTrimMaterial trimMaterial = new ArmorTrimMaterial(armorTrimKey.getValue().getPath(), item, Map.of(),
                 Text.translatable(Util.createTranslationKey("trim_material", armorTrimKey.getValue())).fillStyle(style));
 
         registerable.register(armorTrimKey, trimMaterial);

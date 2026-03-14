@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "R": {
-      "item": "rosegold:rose_gold_ingot"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "R": "rosegold:rose_gold_ingot",
+    "S": "minecraft:stick"
   },
   "pattern": [
     "RRR",

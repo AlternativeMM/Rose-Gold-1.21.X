@@ -4,6 +4,5 @@
     "color": "#FF9CFD",
     "translate": "trim_material.rosegold.rose_gold"
   },
-  "ingredient": "rosegold:rose_gold_ingot",
-  "item_model_index": 1.0
+  "ingredient": "rosegold:rose_gold_ingot"
 }
