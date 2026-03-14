@@ -64,9 +64,5 @@ public class ModItems {
     public static void registerModItems() {
         RoseGold.LOGGER.info("Registering ModItems for" + RoseGold.MOD_ID);
 
-        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-        //    entries.add(ROSE_GOLD_INGOT);
-        //    entries.add(ROSE_GOLD_NUGGET);
-        //});
     }
 }
